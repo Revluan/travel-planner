@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Navbar({ session }: { session: Session | null }) {
+  console.log("session:", session);
   return (
     <nav className="bg-white shadow-md py-4 border-b border-gray-200">
       {" "}
